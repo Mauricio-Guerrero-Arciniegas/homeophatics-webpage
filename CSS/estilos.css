@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #642a73;
+    color: #137c13;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,8 +28,9 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background-image: url(../img/homeopathy-Banner.jpg);
+    background: url("/img/homeopathy-Banner.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
 }
@@ -48,17 +49,20 @@ nav > a {
 }
 
 nav > a:hover {
+
     text-decoration: underline;
 }
 
 header > .textos-header {
     display: flex;
-    height: 430px;
+    height: 230px;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 2px  #414141;
 }
 
 .textos-header h1{
@@ -72,10 +76,32 @@ header > .textos-header {
     color: #fff;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #4895ef;
+    overflow: hidden;
+}
+
 .wave {
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
+    height: 100px;
+    background-image: url(../img/wave.png);
+    background-size: 1000px 100px;
+    animation: wave 10s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
 }
 
 /*About us*/
@@ -100,7 +126,7 @@ header > .textos-header {
 }
 
 .contenido-textos h3 span {
-    background: #4d0686;
+    background: #137c13;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -152,7 +178,7 @@ header > .textos-header {
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273, 91%, 27%, 0.7);
+    background: #137c13;
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -180,7 +206,7 @@ header > .textos-header {
 }
 
 .cards .card {
-    background: #4d0686;
+    background: #137c13;
     display: flex;
     width: 46%;
     height: 200px;
@@ -264,7 +290,7 @@ footer {
 
 .content-foo h4 {
     color: #fff;
-    border-bottom: 3px solid #642a73;
+    border-bottom: 3px solid #137c13;
     pad: 5px;
     margin-bottom: 10px;
 }

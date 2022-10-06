@@ -9,32 +9,31 @@
     <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@0,100;1,200&display=swap');
+        </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@0,100;1,200&display=swap');
     </style>
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav>
             <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Portafolio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="#about-us">Acerca de</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <section class="textos-header">
-            
             <h1>Dr. Mauricio Guerrero</h1>
             <h2>Centro Medico Homeopatico</h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+        <div class="wave"></div>
     </header>
     <main>
-        <section class="contenedor sobre-nosotros">
+        <section class="contenedor sobre-nosotros" id="about-us">
             <h2 class="titulo">Nuestro producto</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/ilustracion2.svg" alt=""  class="imagen-about-us">
@@ -50,7 +49,7 @@
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="portafolio" id="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Portafolio</h2>
                 <div class="galeria-port">
@@ -132,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-services">
+        <section class="about-services" id="servicios">
             <div class="contenedor">
                 <h2 class="titulo">Nuestros Servicios</h2>
                 <div class="servicio-cont">
@@ -156,7 +155,7 @@
         </section>
     </main>
     <footer>
-        <div class="contenedor-footer">
+        <div class="contenedor-footer" id="contacto">
             <div class="content-foo">
                 <h4>Phone</h4>
                 <p>3137675461</p>
