@@ -65,6 +65,11 @@ header > .textos-header {
     text-shadow: 2px 2px 2px  #414141;
 }
 
+.background {
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 .textos-header h1{
     font-size: 50px;
     color: #fff;
