@@ -53,9 +53,7 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-.background-img {
-    opacity: 1;
-}
+
 
 header > .textos-header {
     display: flex;
