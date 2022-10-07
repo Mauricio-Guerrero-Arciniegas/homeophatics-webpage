@@ -53,8 +53,6 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-
-
 header > .textos-header {
     display: flex;
     height: 230px;
@@ -86,11 +84,19 @@ header > .textos-header {
     height: 100vh;
     background-color: #fff;
     overflow: hidden;
-    background-image: url(/img/homeopathy-Banner.jpg);
+}
+
+.background {
+    width: 100%;
 }
 
 .nav {
-    float: right;
+    float: left;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
 }
 
 .wave {
