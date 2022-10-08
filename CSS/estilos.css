@@ -23,6 +23,14 @@ body {
     margin-bottom: 60px;
 }
 
+/*Whatsapp*/
+
+.btn-wsp {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
 /*Header*/
 
 header {
@@ -53,24 +61,10 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-
-
 .background {
     background-repeat: no-repeat;
     object-fit: cover;
 }
-
-.textos-header h1{
-    font-size: 50px;
-    color: #fff;
-}
-
-.textos-header h2{
-    font-size: 30px;
-    font-weight: 300;
-    color: #fff;
-}
-
 
 .container {
     display: flex;
@@ -86,17 +80,21 @@ nav > a:hover {
 }
 
 .nav {
-    float: left;
+    
     position: absolute;
-    margin-left: 5%;
+    align-items: center;
+    margin-left: 7%;
 }
 
 .text {
     position: absolute;
     margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    left: 3;
+    margin-left: 6.5%;
+    margin-right: 6%;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
+    
 }
 
 .wave {
@@ -107,7 +105,7 @@ nav > a:hover {
     height: 100px;
     background-image: url(../img/wave.png);
     background-size: 1000px 100px;
-    animation: wave 10s linear infinite;
+    animation: wave 10s;
 }
 
 @keyframes wave {
