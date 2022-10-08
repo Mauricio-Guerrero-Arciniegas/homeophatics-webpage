@@ -47,6 +47,7 @@ header {
 nav {
     text-align: right;
     padding: 30px 10px 0 0;
+    scroll-behavior: smooth;
     
 }
 
@@ -55,6 +56,7 @@ nav > a {
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    scroll-behavior: smooth;
 }
 
 nav > a:hover {
@@ -171,7 +173,7 @@ nav > a:hover {
 /*Galeria*/
 
 .portafolio {
-    background: #d6d6d6;
+    background: #9eb494;
 }
 
 .galeria-port {
@@ -262,7 +264,7 @@ nav > a:hover {
 /*Our team*/
 
 .about-services {
-    background: #d6d6d6;
+    background: #c0cfc5;
     padding-bottom: 30px;
 }
 
@@ -398,10 +400,13 @@ footer {
         margin-right: 5px;
     }
     .textos-header h1 {
-        font-size: 35px;
+        font-size: 33px;
+        margin-top: 4rem;
     }
-    textos-header h2 {
+    .textos-header h2 {
         font-size: 20px;
+        margin-top: 2rem;
+        text-align: center;
     }
     /*About us*/
     .imagen-about-us {
