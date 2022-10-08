@@ -29,6 +29,7 @@ body {
     position: fixed;
     bottom: 5%;
     right: 5%;
+    z-index: 100;
 }
 
 /*Header*/
@@ -80,7 +81,6 @@ nav > a:hover {
 }
 
 .nav {
-    
     position: absolute;
     align-items: center;
     margin-left: 7%;
@@ -88,12 +88,23 @@ nav > a:hover {
 
 .text {
     position: absolute;
-    margin-top: 15%;
-    left: 3;
+    margin-top: 10%;
     margin-left: 6.5%;
-    margin-right: 6%;
-    text-align: center;
+    margin-right: 6.5%;
     text-shadow: 2px 2px 2px black;
+}
+
+.text h1 {
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text h2 {
+    color: #fff;
+    font-weight: 400;
+    
     
 }
 
@@ -160,7 +171,7 @@ nav > a:hover {
 /*Galeria*/
 
 .portafolio {
-    background: #f2f2f2;
+    background: #d6d6d6;
 }
 
 .galeria-port {
@@ -230,11 +241,11 @@ nav > a:hover {
 }
 
 .cards .card img {
-    widows: 100px;
+    width: 100px;
     height: 100px;
     object-fit: cover;
     border: 3px solid #fff;
-    border-radius: 50%;
+    border-radius: 5px;
     display: block;
 }
 
@@ -251,7 +262,7 @@ nav > a:hover {
 /*Our team*/
 
 .about-services {
-    background: #f2f2f2;
+    background: #d6d6d6;
     padding-bottom: 30px;
 }
 
