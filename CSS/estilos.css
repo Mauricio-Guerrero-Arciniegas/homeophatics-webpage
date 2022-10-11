@@ -91,8 +91,8 @@ nav > a:hover {
 .text {
     position: absolute;
     margin-top: 10%;
-    margin-left: 6.5%;
-    margin-right: 6.5%;
+    margin-left: 3%;
+    margin-right: 3%;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -118,7 +118,8 @@ nav > a:hover {
     height: 100px;
     background-image: url(../img/wave.png);
     background-size: 1000px 100px;
-    animation: wave 10s;
+    animation: wave 3s;
+    
 }
 
 @keyframes wave {
@@ -136,11 +137,16 @@ nav > a:hover {
 
 .contenedor-sobre-nosotros {
     display: flex;
+    
     justify-content: space-evenly;
 }
 
 .imagen-about-us {
     width: 48%;
+    object-fit: cover;
+    max-height: 148vh;
+    margin-top: 3rem;
+    border-radius: 5px;
 }
 
 .sobre-nosotros .contenido-textos {
@@ -173,7 +179,11 @@ nav > a:hover {
 /*Galeria*/
 
 .portafolio {
-    background: #9eb494;
+    background-image: url(../img/landscape.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .galeria-port {
@@ -400,7 +410,7 @@ footer {
         margin-right: 5px;
     }
     .textos-header h1 {
-        font-size: 33px;
+        font-size: 35px;
         margin-top: 4rem;
     }
     .textos-header h2 {
