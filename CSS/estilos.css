@@ -1,12 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
     color: rgb(65, 63, 63);
 }
-html{scroll-behavior:smooth}
+
+html {
+    scroll-behavior: smooth
+}
 
 body {
     font-family: open sans;
@@ -14,24 +17,22 @@ body {
     background-color: #2046332d;
 }
 
-
-
 .contenedor {
     padding: 2rem 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: auto;
     overflow: hidden;
 }
 
 .titulo {
     color: #137c13;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
-/*Whatsapp*/
+/*Whatsapp icon*/
 
 .btn-wsp {
     position: fixed;
@@ -40,33 +41,32 @@ body {
     z-index: 200;
     border-radius: 50%;
     height: 2.5rem;
-    box-shadow: #fff 2px 2px 9px;
+    box-shadow: #fff 0.125rem 0.125rem 0.5625rem;
 }
 
 /*Header*/
 
 nav {
     text-align: right;
-    
+
     scroll-behavior: smooth;
     position: fixed;
     background-color: #414141a9;
     z-index: 3;
-    border-radius: 0 0 5px 5px;
-    padding: 2.5px 5px;
+    border-radius: 0 0 0.3125rem 0.3125rem;
+    padding: 0.1563rem 0.3125rem;
 }
 
-nav > a {
+nav>a {
     color: #fff;
     font-weight: 400;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     scroll-behavior: smooth;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem black;
 }
 
-nav > a:hover {
-    
+nav>a:hover {
     text-decoration: underline;
 }
 
@@ -79,14 +79,12 @@ nav > a:hover {
     background-color: rgb(255, 255, 255);
     background-image: url(/img/homeopathy-Banner.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat ;
-    
+    background-repeat: no-repeat;
 }
 
 .background {
     width: 100%;
     height: 100vh;
-    
 }
 
 .nav {
@@ -103,6 +101,7 @@ nav > a:hover {
     0% {
         margin-top: -15rem;
     }
+
     100% {
         margin-top: 0%;
     }
@@ -114,11 +113,11 @@ nav > a:hover {
     margin-top: 8rem;
     color: #fff;
     font-family: Playfair Display;
-    font-size: 38px;
+    font-size: 2.375rem;
     width: auto;
     animation: dr 2s ease-out;
     z-index: 100;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 0.125rem 0.125rem 0.125rem black;
 }
 
 .textos-animados .centro {
@@ -127,12 +126,11 @@ nav > a:hover {
     margin-top: 11rem;
     color: #fff;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 1.5625rem;
     animation: centro 3s;
     animation-delay: 1s;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 0.125rem 0.125rem 0.125rem black;
 }
-
 
 /*About us*/
 
@@ -149,14 +147,14 @@ nav > a:hover {
 .imagen-about-us1 {
     width: 50%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     max-height: 97vh;
 }
 
 .imagen-about-us2 {
     width: 50%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     max-height: 130vh;
     margin-top: 3rem;
 }
@@ -166,12 +164,12 @@ nav > a:hover {
 }
 
 .contenido-textos1 h3 {
-    margin-bottom: 15px;
-    
+    margin-bottom: 0.9375rem;
+
 }
 
 .contenido-textos2 h3 {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .contenido-textos1 h3 span {
@@ -180,12 +178,11 @@ nav > a:hover {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 4px;
-    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 0.25rem;
+    box-shadow: 0 0 0.375rem rgba(0, 0, 0, .5);
     margin-left: 2rem;
-    
 }
 
 .contenido-textos2 h3 span {
@@ -194,12 +191,11 @@ nav > a:hover {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px rgba(0,0,0,.5);
-    margin-left: 3px;
-    
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 0.125rem;
+    box-shadow: 0 0 0.375rem rgba(0, 0, 0, .5);
+    margin-left: 0.1875rem;
 }
 
 .contenido-textos1 p {
@@ -216,11 +212,6 @@ nav > a:hover {
 
 /*Galeria*/
 
-.portafolio {
-    
-     
-}
-
 .galeria-port {
     display: flex;
     justify-content: space-evenly;
@@ -230,19 +221,17 @@ nav > a:hover {
 .imagen-port {
     width: 45%;
     max-height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     position: relative;
     cursor: pointer;
-    
 }
 
-
-.imagen-port > img {
+.imagen-port>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .imagen-port p {
@@ -252,8 +241,8 @@ nav > a:hover {
     margin-right: 1rem;
     margin-top: 1rem;
     background-color: #15161648;
-    border-radius: 5px;
-    padding: 10px 10px ;
+    border-radius: 0.3125rem;
+    padding: 0.625rem 0.625rem;
 }
 
 .hover-galeria {
@@ -269,11 +258,11 @@ nav > a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .hover-galeria img {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .hover-galeria p {
@@ -281,24 +270,20 @@ nav > a:hover {
 }
 
 .imagen-port:hover .hover-galeria {
-    transform:scale(1);
+    transform: scale(1);
 }
 
 /*Nuestras Certificaciones*/
 
-.background-zen {
-    
-}
+.background-zen {}
 
 .zen {
-    
     display: flex;
     position: relative;
     object-fit: cover;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .cards {
@@ -306,19 +291,17 @@ nav > a:hover {
     flex-direction: column;
     width: 80%;
     position: absolute;
-    
     align-items: center;
-    
 }
 
 .card {
     flex-direction: column;
     display: flex;
     width: 60%;
-    height: 300px;
+    height: 18.75rem;
     margin: 2rem;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background: rgb (250, 250, 250, .5);
     backdrop-filter: blur(.3em);
     justify-content: center;
@@ -328,25 +311,22 @@ nav > a:hover {
 }
 
 .card img {
-    
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 5px;
+    border: 0.1875rem solid #fff;
+    border-radius: 0.3125rem;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-
-
 /*Conozca mas*/
 
 .about-services {
     background: #bbbebd2d;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .servicio-cont {
@@ -367,7 +347,7 @@ nav > a:hover {
 }
 
 .servicio-ind h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 2rem;
     color: #137c13;
 }
@@ -382,7 +362,7 @@ nav > a:hover {
 
 footer {
     background: #414141;
-    padding: 60px 0 30px 0;
+    padding: 3.75rem 0 1.875rem 0;
     margin: auto;
     overflow: hidden;
 }
@@ -392,23 +372,24 @@ footer {
     width: 90%;
     justify-content: space-evenly;
     margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    padding-bottom: 3.125rem;
+    border-bottom: 0.0625rem solid #ccc;
 }
 
 .content-foo {
     text-align: center;
 }
-.content-foo a{
+
+.content-foo a {
     text-decoration: none;
     color: rgb(205, 209, 223);
 }
 
 .content-foo h4 {
     color: #fff;
-    border-bottom: 3px solid #d1d3d13d;
+    border-bottom: 0.1875rem solid #d1d3d13d;
     padding: .7em;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .content-foo p {
@@ -417,86 +398,100 @@ footer {
 
 .titulo-final {
     text-align: center;
-    font-size: 20px;
-    margin: 20px 0 0 0;
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0 0;
     color: #9e9797;
 }
-.telefono-btn{
+
+.telefono-btn {
     margin: .5em 0 0 0;
-    padding: .5em 1em ;
+    padding: .5em 1em;
     border-radius: .5em;
     background-color: #137c13;
     border: none;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem black;
 }
-.telefono-btn:hover{
-    background-color: #137c1377;
-}
-.email-btn{
-    margin: .5em 0 0 0;
-    padding: .5em 1em ;
-    border-radius: .5em;
-    background-color: #137c13;
-    border: none;
-    box-shadow: 1px 1px 1px black;
-}
-.email-btn:hover{
+
+.telefono-btn:hover {
     background-color: #137c1377;
 }
 
-@media screen and (max-width:900px){
-    
+.email-btn {
+    margin: .5em 0 0 0;
+    padding: .5em 1em;
+    border-radius: .5em;
+    background-color: #137c13;
+    border: none;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem black;
+}
+
+.email-btn:hover {
+    background-color: #137c1377;
+}
+
+@media screen and (max-width:56.25rem) {
+
     .container {
         width: 100%;
         height: 60vw;
     }
+
     .textos-animados .dr {
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-top: 7rem;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
+
     .textos-animados .centro {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin-top: 10rem;
         text-align: center;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
+
     .contenedor-sobre-nosotros1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .contenedor-sobre-nosotros1 h3 span {
         margin-top: 2rem;
         margin-left: 0rem;
     }
+
     .contenedor-sobre-nosotros2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .sobre-nosotros .contenido-textos1 {
         width: 90%;
     }
+
     .sobre-nosotros .contenido-textos2 {
         width: 90%;
     }
+
     .contenido-textos1 p {
         font-weight: 300;
         text-align: justify;
         margin-left: 0rem;
     }
-    
+
     .contenido-textos2 p {
         font-weight: 300;
         text-align: justify;
         margin-left: 0rem;
         margin-right: 0rem;
     }
+
     .imagen-about-us1 {
         width: 90%;
         margin-bottom: 2rem;
     }
+
     .imagen-about-us2 {
         width: 90%;
     }
@@ -505,49 +500,60 @@ footer {
     .imagen-port {
         width: 90%;
     }
+
     .hover-galeria {
-        border-radius: 5px;
+        border-radius: 0.3125rem;
     }
+
     /*Clientes*/
     .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .cards .card {
         width: 90%;
     }
-    .cards .card:first-child{
-        margin-bottom: 30px;
+
+    .cards .card:first-child {
+        margin-bottom: 1.875rem;
     }
+
     /*Servicios*/
     .servicio-cont {
         justify-content: center;
         flex-direction: column;
     }
+
     .servicio-ind {
         width: 100%;
         text-align: center;
     }
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
-        margin-bottom: 60px;
+
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
+        margin-bottom: 3.75rem;
     }
+
     .servicio-ind img {
         width: 90%;
     }
+
     main .sobre-nosotros {
-        padding: 10px 0 30px 0;
+        padding: 0.625rem 0 1.875rem 0;
     }
+
     .contenedor-footer {
         flex-direction: column;
     }
+
     .contenedor-footer h4 {
-        border:none;
+        border: none;
     }
-   
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:31.25rem) {
     .container {
         position: relative;
         border-color: #fff;
@@ -557,76 +563,90 @@ footer {
         background-color: rgb(255, 255, 255);
         background-image: url(/img/homeopathy-Banner.jpg);
         background-size: 100% 100%;
-        background-repeat: no-repeat ;
+        background-repeat: no-repeat;
     }
-    
+
     nav {
         text-align: center;
-        padding:10px 0 0 0;
-        margin: 0 30px 0 0;
+        padding: 0.625rem 0 0 0;
+        margin: 0 1.875rem 0 0;
     }
-    nav > a{
-        margin-right: 2px;
+
+    nav>a {
+        margin-right: 0.125rem;
     }
+
     .textos-animados .dr {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin-top: 6.5rem;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
+
     .textos-animados .centro {
-        font-size: 12px;
+        font-size: 0.75rem;
         margin-top: 8rem;
         text-align: center;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
 
     /*About us*/
     .imagen-about-us {
-        margin-bottom: 60px;
+        margin-bottom: 3.75rem;
         width: 95%;
     }
+
     .sobre-nosotros .contenido-textos {
         width: 95%;
     }
+
     main .sobre-nosotros {
-        padding: 0 0 30px 0;
+        padding: 0 0 1.875rem 0;
     }
+
     /*Portafolio*/
-    .imagen-port{
+    .imagen-port {
         width: 100%;
     }
+
     .imagen-port p {
-        font-size: 13px;
+        font-size: 0.8125rem;
     }
+
     .hover-galeria {
-        border-radius: 5px;
+        border-radius: 0.3125rem;
     }
+
     /*Clients*/
-    .cards .card{
-        height: 450px;
+    .cards .card {
+        height: 28.125rem;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .cards .card img {
-        width: 90px;
-        height: 90px;
+        width: 5.625rem;
+        height: 5.625rem;
     }
+
     /*Footer*/
     .contenedor-footer {
         flex-direction: column;
         border: none;
     }
+
     .content-foo {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         text-align: center;
     }
-    .content-foo p{
+
+    .content-foo p {
         color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
+        border-bottom: 0.0625rem solid #f2f2f2;
+        padding-bottom: 1.25rem;
     }
-    .titulo-final{
-        font-size: 20px;
+
+    .titulo-final {
+        font-size: 1.25rem;
     }
 }
