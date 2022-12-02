@@ -80,6 +80,7 @@ nav>a:hover {
     background-image: url(/img/homeopathy-Banner.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
 }
 
 .background {
@@ -110,7 +111,7 @@ nav>a:hover {
 .textos-animados .dr {
     position: absolute;
     margin-left: 7%;
-    margin-top: 8rem;
+    margin-top: 4.5rem;
     color: #fff;
     font-family: Playfair Display;
     font-size: 2.375rem;
@@ -123,7 +124,7 @@ nav>a:hover {
 .textos-animados .centro {
     position: absolute;
     margin-left: 7%;
-    margin-top: 11rem;
+    margin-top: 8rem;
     color: #fff;
     font-weight: 100;
     font-size: 1.5625rem;
@@ -438,13 +439,13 @@ footer {
 
     .textos-animados .dr {
         font-size: 1.875rem;
-        margin-top: 7rem;
+        margin-top: 3rem;
         text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
 
     .textos-animados .centro {
         font-size: 1.25rem;
-        margin-top: 10rem;
+        margin-top: 6rem;
         text-align: center;
         text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
@@ -568,23 +569,24 @@ footer {
 
     nav {
         text-align: center;
-        padding: 0.625rem 0 0 0;
-        margin: 0 1.875rem 0 0;
+        padding: 0 3px 10px 3px;
+        margin: 0 16px 0 0;
     }
 
     nav>a {
-        margin-right: 0.125rem;
+        margin-right: 2px;
+        font-size: 15.5px;
     }
 
     .textos-animados .dr {
         font-size: 1.25rem;
-        margin-top: 3.5rem;
+        margin-top: 2.2rem;
         text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
 
     .textos-animados .centro {
         font-size: 0.75rem;
-        margin-top: 5rem;
+        margin-top: 4rem;
         text-align: center;
         text-shadow: 0.125rem 0.125rem 0.125rem black;
     }
