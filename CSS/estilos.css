@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(65, 63, 63);
 }
+html{scroll-behavior:smooth}
 
 body {
     font-family: open sans;
     width: 100%;
-   
+    background-color: #2046332d;
 }
 
 
@@ -43,18 +47,22 @@ body {
 
 nav {
     text-align: right;
-    padding: 30px 10px 0 0;
+    
     scroll-behavior: smooth;
-    
-    
+    position: fixed;
+    background-color: #414141a9;
+    z-index: 3;
+    border-radius: 0 0 5px 5px;
+    padding: 2.5px 5px;
 }
 
 nav > a {
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     margin-right: 10px;
     scroll-behavior: smooth;
+    text-shadow: 1px 1px 1px black;
 }
 
 nav > a:hover {
@@ -67,7 +75,7 @@ nav > a:hover {
     border-color: #fff;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 50vw;
     background-color: rgb(255, 255, 255);
     background-image: url(/img/homeopathy-Banner.jpg);
     background-size: 100% 100%;
@@ -93,10 +101,10 @@ nav > a:hover {
 
 @keyframes textos-animados {
     0% {
-        margin-left: -50rem;
+        margin-top: -15rem;
     }
     100% {
-        margin-left: 0%;
+        margin-top: 0%;
     }
 }
 
@@ -125,27 +133,6 @@ nav > a:hover {
     text-shadow: 2px 2px 2px black;
 }
 
-.wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-image: url(../img/wave.png);
-    background-size: 1000px 100px;
-    
-    animation: wave 3s;
-    z-index: 100;
-}
-
-@keyframes wave {
-    0% {
-        background-position-x: 0;
-    }
-    100% {
-        background-position-x: 1000px;
-    }
-}
 
 /*About us*/
 
@@ -195,7 +182,7 @@ nav > a:hover {
     text-align: center;
     width: 30px;
     height: 30px;
-    padding: 2px;
+    padding: 4px;
     box-shadow: 0 0 6px rgba(0,0,0,.5);
     margin-left: 2rem;
     
@@ -211,7 +198,7 @@ nav > a:hover {
     height: 30px;
     padding: 2px;
     box-shadow: 0 0 6px rgba(0,0,0,.5);
-    
+    margin-left: 3px;
     
 }
 
@@ -230,7 +217,7 @@ nav > a:hover {
 /*Galeria*/
 
 .portafolio {
-    background:linear-gradient(#fff,#137c1381, #137c13b2, #137c1381, #fff);
+    
      
 }
 
@@ -242,12 +229,13 @@ nav > a:hover {
 
 .imagen-port {
     width: 45%;
+    max-height: auto;
     margin-bottom: 10px;
-    overflow: hidden;
     position: relative;
     cursor: pointer;
     
 }
+
 
 .imagen-port > img {
     width: 100%;
@@ -271,16 +259,16 @@ nav > a:hover {
 .hover-galeria {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: 0;
     transform: scale(0);
-    background: rgb (250, 250, 250, .5);
+    background: #bbbebd2d;
     backdrop-filter: blur(2em);
     transition: transform .5s;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 5px;
 }
 
@@ -357,7 +345,7 @@ nav > a:hover {
 /*Conozca mas*/
 
 .about-services {
-    background: #e9ebea;
+    background: #bbbebd2d;
     padding-bottom: 30px;
 }
 
@@ -411,11 +399,15 @@ footer {
 .content-foo {
     text-align: center;
 }
+.content-foo a{
+    text-decoration: none;
+    color: rgb(205, 209, 223);
+}
 
 .content-foo h4 {
     color: #fff;
-    border-bottom: 3px solid #137c13;
-    pad: 5px;
+    border-bottom: 3px solid #d1d3d13d;
+    padding: .7em;
     margin-bottom: 10px;
 }
 
@@ -429,11 +421,34 @@ footer {
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+.telefono-btn{
+    margin: .5em 0 0 0;
+    padding: .5em 1em ;
+    border-radius: .5em;
+    background-color: #137c13;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+}
+.telefono-btn:hover{
+    background-color: #137c1377;
+}
+.email-btn{
+    margin: .5em 0 0 0;
+    padding: .5em 1em ;
+    border-radius: .5em;
+    background-color: #137c13;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+}
+.email-btn:hover{
+    background-color: #137c1377;
+}
 
 @media screen and (max-width:900px){
     
     .container {
-        height: 70vh;
+        width: 100%;
+        height: 60vw;
     }
     .textos-animados .dr {
         font-size: 30px;
@@ -538,47 +553,29 @@ footer {
         border-color: #fff;
         display: flex;
         width: 100%;
-        height: 50vh;
+        height: 60vw;
         background-color: rgb(255, 255, 255);
         background-image: url(/img/homeopathy-Banner.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat ;
     }
-    .wave {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 70px;
-        background-image: url(../img/wave.png);
-        background-size: 800px 100px;
-        animation: wave 3s;
-        z-index: 100;
-    }
     
-    @keyframes wave {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 800px;
-        }
-    }
     nav {
         text-align: center;
-        padding: 30px 0 0 0;
+        padding:10px 0 0 0;
+        margin: 0 30px 0 0;
     }
     nav > a{
-        margin-right: 5px;
+        margin-right: 2px;
     }
     .textos-animados .dr {
         font-size: 20px;
-        margin-top: 4rem;
-        text-shadow: 1px 1px 2px black;
+        margin-top: 6.5rem;
+        text-shadow: 2px 2px 2px black;
     }
     .textos-animados .centro {
         font-size: 12px;
-        margin-top: 6rem;
+        margin-top: 8rem;
         text-align: center;
         text-shadow: 2px 2px 2px black;
     }
