@@ -16,6 +16,11 @@ body {
     width: 100%;
     background-color: #2046332d;
 }
+.logohom{
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 11%;
+}
 
 .contenedor {
     padding: 2rem 0;
@@ -405,7 +410,7 @@ footer {
 
 .titulo-final {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: .5rem;
     margin: 1.25rem 0 0 0;
     color: #9e9797;
 }
@@ -445,6 +450,12 @@ footer {
     .titulo{
         margin-top: 1.4em;
     }
+    .logohom{
+        width: 17%;
+        margin-top: 16%;
+        margin-left: 7%;
+    }
+    
 
     .textos-animados .dr {
         font-size: 1.875rem;
@@ -561,6 +572,9 @@ footer {
     .contenedor-footer h4 {
         border: none;
     }
+    .titulo-final{
+        font-size: .5rem;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -662,5 +676,8 @@ footer {
 
     .titulo-final {
         font-size: 1.25rem;
+    }
+    .titulo-final{
+        font-size: .5rem;
     }
 }
